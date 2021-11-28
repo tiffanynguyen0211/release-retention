@@ -1,5 +1,5 @@
 
-# Release Rentention Exercise
+# Release Retention Exercise
 
 Base on the requirements of the project, I have decided to use (tsdx)[https://tsdx.io/] to build a simple headless React component
 

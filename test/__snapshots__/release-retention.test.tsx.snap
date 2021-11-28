@@ -1,0 +1,811 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Release Retention should match snapshot on first render 1`] = `
+<ReleaseRetension
+  deployments={
+    Array [
+      Object {
+        "DeployedAt": "2000-01-02T10:00:00",
+        "EnvironmentId": "Environment-1",
+        "Id": "Deployment-2",
+        "ReleaseId": "Release-2",
+      },
+      Object {
+        "DeployedAt": "2000-01-02T11:00:00",
+        "EnvironmentId": "Environment-2",
+        "Id": "Deployment-3",
+        "ReleaseId": "Release-1",
+      },
+      Object {
+        "DeployedAt": "2000-01-02T12:00:00",
+        "EnvironmentId": "Environment-3",
+        "Id": "Deployment-4",
+        "ReleaseId": "Release-2",
+      },
+      Object {
+        "DeployedAt": "2000-01-01T11:00:00",
+        "EnvironmentId": "Environment-1",
+        "Id": "Deployment-5",
+        "ReleaseId": "Release-5",
+      },
+      Object {
+        "DeployedAt": "2000-01-02T10:00:00",
+        "EnvironmentId": "Environment-1",
+        "Id": "Deployment-6",
+        "ReleaseId": "Release-6",
+      },
+      Object {
+        "DeployedAt": "2000-01-02T11:00:00",
+        "EnvironmentId": "Environment-2",
+        "Id": "Deployment-7",
+        "ReleaseId": "Release-6",
+      },
+      Object {
+        "DeployedAt": "2000-01-02T13:00:00",
+        "EnvironmentId": "Environment-1",
+        "Id": "Deployment-8",
+        "ReleaseId": "Release-7",
+      },
+      Object {
+        "DeployedAt": "2000-01-02T14:00:00",
+        "EnvironmentId": "Environment-1",
+        "Id": "Deployment-9",
+        "ReleaseId": "Release-6",
+      },
+      Object {
+        "DeployedAt": "2000-01-01T10:00:00",
+        "EnvironmentId": "Environment-1",
+        "Id": "Deployment-10",
+        "ReleaseId": "Release-8",
+      },
+    ]
+  }
+  environments={
+    Array [
+      Object {
+        "Id": "Environment-1",
+        "Name": "Staging",
+      },
+      Object {
+        "Id": "Environment-2",
+        "Name": "Production",
+      },
+    ]
+  }
+  projects={
+    Array [
+      Object {
+        "Id": "Project-1",
+        "Name": "Random Quotes",
+      },
+      Object {
+        "Id": "Project-2",
+        "Name": "Pet Shop",
+      },
+      Object {
+        "Id": "Project-3",
+        "Name": "Is this project is missed?",
+      },
+    ]
+  }
+  releases={
+    Array [
+      Object {
+        "Created": "2000-01-01T09:00:00",
+        "Id": "Release-1",
+        "ProjectId": "Project-1",
+        "Version": "1.0.0",
+      },
+      Object {
+        "Created": "2000-01-02T09:00:00",
+        "Id": "Release-2",
+        "ProjectId": "Project-1",
+        "Version": "1.0.1",
+      },
+      Object {
+        "Created": "2000-01-02T13:00:00",
+        "Id": "Release-3",
+        "ProjectId": "Project-1",
+        "Version": null,
+      },
+      Object {
+        "Created": "2000-01-01T09:00:00",
+        "Id": "Release-4",
+        "ProjectId": "Project-2",
+        "Version": "1.0.0",
+      },
+      Object {
+        "Created": "2000-01-01T10:00:00",
+        "Id": "Release-5",
+        "ProjectId": "Project-2",
+        "Version": "1.0.1-ci1",
+      },
+      Object {
+        "Created": "2000-01-02T09:00:00",
+        "Id": "Release-6",
+        "ProjectId": "Project-2",
+        "Version": "1.0.2",
+      },
+      Object {
+        "Created": "2000-01-02T12:00:00",
+        "Id": "Release-7",
+        "ProjectId": "Project-2",
+        "Version": "1.0.3",
+      },
+      Object {
+        "Created": "2000-01-01T09:00:00",
+        "Id": "Release-8",
+        "ProjectId": "Project-3",
+        "Version": "2.0.0",
+      },
+    ]
+  }
+>
+  <div>
+    <ProjectContainer
+      deployments={
+        Array [
+          Object {
+            "DeployedAt": "2000-01-02T10:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-2",
+            "ReleaseId": "Release-2",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T11:00:00",
+            "EnvironmentId": "Environment-2",
+            "Id": "Deployment-3",
+            "ReleaseId": "Release-1",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T12:00:00",
+            "EnvironmentId": "Environment-3",
+            "Id": "Deployment-4",
+            "ReleaseId": "Release-2",
+          },
+          Object {
+            "DeployedAt": "2000-01-01T11:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-5",
+            "ReleaseId": "Release-5",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T10:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-6",
+            "ReleaseId": "Release-6",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T11:00:00",
+            "EnvironmentId": "Environment-2",
+            "Id": "Deployment-7",
+            "ReleaseId": "Release-6",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T13:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-8",
+            "ReleaseId": "Release-7",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T14:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-9",
+            "ReleaseId": "Release-6",
+          },
+          Object {
+            "DeployedAt": "2000-01-01T10:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-10",
+            "ReleaseId": "Release-8",
+          },
+        ]
+      }
+      environments={
+        Array [
+          Object {
+            "Id": "Environment-1",
+            "Name": "Staging",
+          },
+          Object {
+            "Id": "Environment-2",
+            "Name": "Production",
+          },
+        ]
+      }
+      key="Project-1"
+      project={
+        Object {
+          "Id": "Project-1",
+          "Name": "Random Quotes",
+        }
+      }
+      releases={
+        Array [
+          Object {
+            "Created": "2000-01-01T09:00:00",
+            "Id": "Release-1",
+            "ProjectId": "Project-1",
+            "Version": "1.0.0",
+          },
+          Object {
+            "Created": "2000-01-02T09:00:00",
+            "Id": "Release-2",
+            "ProjectId": "Project-1",
+            "Version": "1.0.1",
+          },
+          Object {
+            "Created": "2000-01-02T13:00:00",
+            "Id": "Release-3",
+            "ProjectId": "Project-1",
+            "Version": null,
+          },
+          Object {
+            "Created": "2000-01-01T09:00:00",
+            "Id": "Release-4",
+            "ProjectId": "Project-2",
+            "Version": "1.0.0",
+          },
+          Object {
+            "Created": "2000-01-01T10:00:00",
+            "Id": "Release-5",
+            "ProjectId": "Project-2",
+            "Version": "1.0.1-ci1",
+          },
+          Object {
+            "Created": "2000-01-02T09:00:00",
+            "Id": "Release-6",
+            "ProjectId": "Project-2",
+            "Version": "1.0.2",
+          },
+          Object {
+            "Created": "2000-01-02T12:00:00",
+            "Id": "Release-7",
+            "ProjectId": "Project-2",
+            "Version": "1.0.3",
+          },
+          Object {
+            "Created": "2000-01-01T09:00:00",
+            "Id": "Release-8",
+            "ProjectId": "Project-3",
+            "Version": "2.0.0",
+          },
+        ]
+      }
+    >
+      <ProjectSummary
+        latestDeployments={
+          Array [
+            Object {
+              "deployment": Object {
+                "DeployedAt": "2000-01-02T10:00:00",
+                "EnvironmentId": "Environment-1",
+                "Id": "Deployment-2",
+                "ReleaseId": "Release-2",
+              },
+              "environment": Object {
+                "Id": "Environment-1",
+                "Name": "Staging",
+              },
+              "release": Object {
+                "Created": "2000-01-02T09:00:00",
+                "Id": "Release-2",
+                "ProjectId": "Project-1",
+                "Version": "1.0.1",
+              },
+            },
+            Object {
+              "deployment": Object {
+                "DeployedAt": "2000-01-02T11:00:00",
+                "EnvironmentId": "Environment-2",
+                "Id": "Deployment-3",
+                "ReleaseId": "Release-1",
+              },
+              "environment": Object {
+                "Id": "Environment-2",
+                "Name": "Production",
+              },
+              "release": Object {
+                "Created": "2000-01-01T09:00:00",
+                "Id": "Release-1",
+                "ProjectId": "Project-1",
+                "Version": "1.0.0",
+              },
+            },
+          ]
+        }
+        project={
+          Object {
+            "Id": "Project-1",
+            "Name": "Random Quotes",
+          }
+        }
+      >
+        <div>
+          <h1>
+            Random Quotes
+          </h1>
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  Release
+                </th>
+                <th>
+                  Environment
+                </th>
+                <th>
+                  Deployment
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                key="Deployment-2"
+              >
+                <td>
+                  Release-2 (Version:1.0.1, Created:2000-01-02T09:00:00)
+                </td>
+                <td>
+                  Environment-1
+                </td>
+                <td>
+                  Deployment-2 (DeployedAt:2000-01-02T10:00:00)
+                </td>
+              </tr>
+              <tr
+                key="Deployment-3"
+              >
+                <td>
+                  Release-1 (Version:1.0.0, Created:2000-01-01T09:00:00)
+                </td>
+                <td>
+                  Environment-2
+                </td>
+                <td>
+                  Deployment-3 (DeployedAt:2000-01-02T11:00:00)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </ProjectSummary>
+    </ProjectContainer>
+    <ProjectContainer
+      deployments={
+        Array [
+          Object {
+            "DeployedAt": "2000-01-02T10:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-2",
+            "ReleaseId": "Release-2",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T11:00:00",
+            "EnvironmentId": "Environment-2",
+            "Id": "Deployment-3",
+            "ReleaseId": "Release-1",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T12:00:00",
+            "EnvironmentId": "Environment-3",
+            "Id": "Deployment-4",
+            "ReleaseId": "Release-2",
+          },
+          Object {
+            "DeployedAt": "2000-01-01T11:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-5",
+            "ReleaseId": "Release-5",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T10:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-6",
+            "ReleaseId": "Release-6",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T11:00:00",
+            "EnvironmentId": "Environment-2",
+            "Id": "Deployment-7",
+            "ReleaseId": "Release-6",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T13:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-8",
+            "ReleaseId": "Release-7",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T14:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-9",
+            "ReleaseId": "Release-6",
+          },
+          Object {
+            "DeployedAt": "2000-01-01T10:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-10",
+            "ReleaseId": "Release-8",
+          },
+        ]
+      }
+      environments={
+        Array [
+          Object {
+            "Id": "Environment-1",
+            "Name": "Staging",
+          },
+          Object {
+            "Id": "Environment-2",
+            "Name": "Production",
+          },
+        ]
+      }
+      key="Project-2"
+      project={
+        Object {
+          "Id": "Project-2",
+          "Name": "Pet Shop",
+        }
+      }
+      releases={
+        Array [
+          Object {
+            "Created": "2000-01-01T09:00:00",
+            "Id": "Release-1",
+            "ProjectId": "Project-1",
+            "Version": "1.0.0",
+          },
+          Object {
+            "Created": "2000-01-02T09:00:00",
+            "Id": "Release-2",
+            "ProjectId": "Project-1",
+            "Version": "1.0.1",
+          },
+          Object {
+            "Created": "2000-01-02T13:00:00",
+            "Id": "Release-3",
+            "ProjectId": "Project-1",
+            "Version": null,
+          },
+          Object {
+            "Created": "2000-01-01T09:00:00",
+            "Id": "Release-4",
+            "ProjectId": "Project-2",
+            "Version": "1.0.0",
+          },
+          Object {
+            "Created": "2000-01-01T10:00:00",
+            "Id": "Release-5",
+            "ProjectId": "Project-2",
+            "Version": "1.0.1-ci1",
+          },
+          Object {
+            "Created": "2000-01-02T09:00:00",
+            "Id": "Release-6",
+            "ProjectId": "Project-2",
+            "Version": "1.0.2",
+          },
+          Object {
+            "Created": "2000-01-02T12:00:00",
+            "Id": "Release-7",
+            "ProjectId": "Project-2",
+            "Version": "1.0.3",
+          },
+          Object {
+            "Created": "2000-01-01T09:00:00",
+            "Id": "Release-8",
+            "ProjectId": "Project-3",
+            "Version": "2.0.0",
+          },
+        ]
+      }
+    >
+      <ProjectSummary
+        latestDeployments={
+          Array [
+            Object {
+              "deployment": Object {
+                "DeployedAt": "2000-01-02T14:00:00",
+                "EnvironmentId": "Environment-1",
+                "Id": "Deployment-9",
+                "ReleaseId": "Release-6",
+              },
+              "environment": Object {
+                "Id": "Environment-1",
+                "Name": "Staging",
+              },
+              "release": Object {
+                "Created": "2000-01-02T09:00:00",
+                "Id": "Release-6",
+                "ProjectId": "Project-2",
+                "Version": "1.0.2",
+              },
+            },
+            Object {
+              "deployment": Object {
+                "DeployedAt": "2000-01-02T11:00:00",
+                "EnvironmentId": "Environment-2",
+                "Id": "Deployment-7",
+                "ReleaseId": "Release-6",
+              },
+              "environment": Object {
+                "Id": "Environment-2",
+                "Name": "Production",
+              },
+              "release": Object {
+                "Created": "2000-01-02T09:00:00",
+                "Id": "Release-6",
+                "ProjectId": "Project-2",
+                "Version": "1.0.2",
+              },
+            },
+          ]
+        }
+        project={
+          Object {
+            "Id": "Project-2",
+            "Name": "Pet Shop",
+          }
+        }
+      >
+        <div>
+          <h1>
+            Pet Shop
+          </h1>
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  Release
+                </th>
+                <th>
+                  Environment
+                </th>
+                <th>
+                  Deployment
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                key="Deployment-9"
+              >
+                <td>
+                  Release-6 (Version:1.0.2, Created:2000-01-02T09:00:00)
+                </td>
+                <td>
+                  Environment-1
+                </td>
+                <td>
+                  Deployment-9 (DeployedAt:2000-01-02T14:00:00)
+                </td>
+              </tr>
+              <tr
+                key="Deployment-7"
+              >
+                <td>
+                  Release-6 (Version:1.0.2, Created:2000-01-02T09:00:00)
+                </td>
+                <td>
+                  Environment-2
+                </td>
+                <td>
+                  Deployment-7 (DeployedAt:2000-01-02T11:00:00)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </ProjectSummary>
+    </ProjectContainer>
+    <ProjectContainer
+      deployments={
+        Array [
+          Object {
+            "DeployedAt": "2000-01-02T10:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-2",
+            "ReleaseId": "Release-2",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T11:00:00",
+            "EnvironmentId": "Environment-2",
+            "Id": "Deployment-3",
+            "ReleaseId": "Release-1",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T12:00:00",
+            "EnvironmentId": "Environment-3",
+            "Id": "Deployment-4",
+            "ReleaseId": "Release-2",
+          },
+          Object {
+            "DeployedAt": "2000-01-01T11:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-5",
+            "ReleaseId": "Release-5",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T10:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-6",
+            "ReleaseId": "Release-6",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T11:00:00",
+            "EnvironmentId": "Environment-2",
+            "Id": "Deployment-7",
+            "ReleaseId": "Release-6",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T13:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-8",
+            "ReleaseId": "Release-7",
+          },
+          Object {
+            "DeployedAt": "2000-01-02T14:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-9",
+            "ReleaseId": "Release-6",
+          },
+          Object {
+            "DeployedAt": "2000-01-01T10:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-10",
+            "ReleaseId": "Release-8",
+          },
+        ]
+      }
+      environments={
+        Array [
+          Object {
+            "Id": "Environment-1",
+            "Name": "Staging",
+          },
+          Object {
+            "Id": "Environment-2",
+            "Name": "Production",
+          },
+        ]
+      }
+      key="Project-3"
+      project={
+        Object {
+          "Id": "Project-3",
+          "Name": "Is this project is missed?",
+        }
+      }
+      releases={
+        Array [
+          Object {
+            "Created": "2000-01-01T09:00:00",
+            "Id": "Release-1",
+            "ProjectId": "Project-1",
+            "Version": "1.0.0",
+          },
+          Object {
+            "Created": "2000-01-02T09:00:00",
+            "Id": "Release-2",
+            "ProjectId": "Project-1",
+            "Version": "1.0.1",
+          },
+          Object {
+            "Created": "2000-01-02T13:00:00",
+            "Id": "Release-3",
+            "ProjectId": "Project-1",
+            "Version": null,
+          },
+          Object {
+            "Created": "2000-01-01T09:00:00",
+            "Id": "Release-4",
+            "ProjectId": "Project-2",
+            "Version": "1.0.0",
+          },
+          Object {
+            "Created": "2000-01-01T10:00:00",
+            "Id": "Release-5",
+            "ProjectId": "Project-2",
+            "Version": "1.0.1-ci1",
+          },
+          Object {
+            "Created": "2000-01-02T09:00:00",
+            "Id": "Release-6",
+            "ProjectId": "Project-2",
+            "Version": "1.0.2",
+          },
+          Object {
+            "Created": "2000-01-02T12:00:00",
+            "Id": "Release-7",
+            "ProjectId": "Project-2",
+            "Version": "1.0.3",
+          },
+          Object {
+            "Created": "2000-01-01T09:00:00",
+            "Id": "Release-8",
+            "ProjectId": "Project-3",
+            "Version": "2.0.0",
+          },
+        ]
+      }
+    >
+      <ProjectSummary
+        latestDeployments={
+          Array [
+            Object {
+              "deployment": Object {
+                "DeployedAt": "2000-01-01T10:00:00",
+                "EnvironmentId": "Environment-1",
+                "Id": "Deployment-10",
+                "ReleaseId": "Release-8",
+              },
+              "environment": Object {
+                "Id": "Environment-1",
+                "Name": "Staging",
+              },
+              "release": Object {
+                "Created": "2000-01-01T09:00:00",
+                "Id": "Release-8",
+                "ProjectId": "Project-3",
+                "Version": "2.0.0",
+              },
+            },
+            Object {
+              "deployment": undefined,
+              "environment": Object {
+                "Id": "Environment-2",
+                "Name": "Production",
+              },
+              "release": undefined,
+            },
+          ]
+        }
+        project={
+          Object {
+            "Id": "Project-3",
+            "Name": "Is this project is missed?",
+          }
+        }
+      >
+        <div>
+          <h1>
+            Is this project is missed?
+          </h1>
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  Release
+                </th>
+                <th>
+                  Environment
+                </th>
+                <th>
+                  Deployment
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                key="Deployment-10"
+              >
+                <td>
+                  Release-8 (Version:2.0.0, Created:2000-01-01T09:00:00)
+                </td>
+                <td>
+                  Environment-1
+                </td>
+                <td>
+                  Deployment-10 (DeployedAt:2000-01-01T10:00:00)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </ProjectSummary>
+    </ProjectContainer>
+  </div>
+</ReleaseRetension>
+`;

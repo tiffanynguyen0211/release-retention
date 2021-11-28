@@ -1,0 +1,378 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project Summary should keep Release-1 and Release-2 in case 2 Releases to 2 Envs 1`] = `
+<ProjectContainer
+  deployments={
+    Array [
+      Object {
+        "DeployedAt": "2000-01-01T11:00:00",
+        "EnvironmentId": "Environment-1",
+        "Id": "Deployment-1",
+        "ReleaseId": "Release-2",
+      },
+      Object {
+        "DeployedAt": "2000-01-02T11:00:00",
+        "EnvironmentId": "Environment-2",
+        "Id": "Deployment-2",
+        "ReleaseId": "Release-1",
+      },
+    ]
+  }
+  environments={
+    Array [
+      Object {
+        "Id": "Environment-1",
+        "Name": "Staging",
+      },
+      Object {
+        "Id": "Environment-2",
+        "Name": "Production}",
+      },
+    ]
+  }
+  project={
+    Object {
+      "Id": "Project-1",
+      "Name": "Random Quotes",
+    }
+  }
+  releases={
+    Array [
+      Object {
+        "Created": "2000-01-01T08:00:00",
+        "Id": "Release-1",
+        "ProjectId": "Project-1",
+        "Version": "1.0.0",
+      },
+      Object {
+        "Created": "2000-01-01T09:00:00",
+        "Id": "Release-2",
+        "ProjectId": "Project-1",
+        "Version": "1.0.1",
+      },
+    ]
+  }
+>
+  <ProjectSummary
+    latestDeployments={
+      Array [
+        Object {
+          "deployment": Object {
+            "DeployedAt": "2000-01-01T11:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-1",
+            "ReleaseId": "Release-2",
+          },
+          "environment": Object {
+            "Id": "Environment-1",
+            "Name": "Staging",
+          },
+          "release": Object {
+            "Created": "2000-01-01T09:00:00",
+            "Id": "Release-2",
+            "ProjectId": "Project-1",
+            "Version": "1.0.1",
+          },
+        },
+        Object {
+          "deployment": Object {
+            "DeployedAt": "2000-01-02T11:00:00",
+            "EnvironmentId": "Environment-2",
+            "Id": "Deployment-2",
+            "ReleaseId": "Release-1",
+          },
+          "environment": Object {
+            "Id": "Environment-2",
+            "Name": "Production}",
+          },
+          "release": Object {
+            "Created": "2000-01-01T08:00:00",
+            "Id": "Release-1",
+            "ProjectId": "Project-1",
+            "Version": "1.0.0",
+          },
+        },
+      ]
+    }
+    project={
+      Object {
+        "Id": "Project-1",
+        "Name": "Random Quotes",
+      }
+    }
+  >
+    <div>
+      <h1>
+        Random Quotes
+      </h1>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Release
+            </th>
+            <th>
+              Environment
+            </th>
+            <th>
+              Deployment
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            key="Deployment-1"
+          >
+            <td>
+              Release-2 (Version:1.0.1, Created:2000-01-01T09:00:00)
+            </td>
+            <td>
+              Environment-1
+            </td>
+            <td>
+              Deployment-1 (DeployedAt:2000-01-01T11:00:00)
+            </td>
+          </tr>
+          <tr
+            key="Deployment-2"
+          >
+            <td>
+              Release-1 (Version:1.0.0, Created:2000-01-01T08:00:00)
+            </td>
+            <td>
+              Environment-2
+            </td>
+            <td>
+              Deployment-2 (DeployedAt:2000-01-02T11:00:00)
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </ProjectSummary>
+</ProjectContainer>
+`;
+
+exports[`Project Summary should keep Release-1 in case 1 Release 1 Env 1`] = `
+<ProjectContainer
+  deployments={
+    Array [
+      Object {
+        "DeployedAt": "2000-01-01T10:00:00",
+        "EnvironmentId": "Environment-1",
+        "Id": "Deployment-1",
+        "ReleaseId": "Release-1",
+      },
+    ]
+  }
+  environments={
+    Array [
+      Object {
+        "Id": "Environment-1",
+        "Name": "Staging",
+      },
+    ]
+  }
+  project={
+    Object {
+      "Id": "Project-1",
+      "Name": "Random Quotes",
+    }
+  }
+  releases={
+    Array [
+      Object {
+        "Created": "2000-01-01T08:00:00",
+        "Id": "Release-1",
+        "ProjectId": "Project-1",
+        "Version": "1.0.0",
+      },
+    ]
+  }
+>
+  <ProjectSummary
+    latestDeployments={
+      Array [
+        Object {
+          "deployment": Object {
+            "DeployedAt": "2000-01-01T10:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-1",
+            "ReleaseId": "Release-1",
+          },
+          "environment": Object {
+            "Id": "Environment-1",
+            "Name": "Staging",
+          },
+          "release": Object {
+            "Created": "2000-01-01T08:00:00",
+            "Id": "Release-1",
+            "ProjectId": "Project-1",
+            "Version": "1.0.0",
+          },
+        },
+      ]
+    }
+    project={
+      Object {
+        "Id": "Project-1",
+        "Name": "Random Quotes",
+      }
+    }
+  >
+    <div>
+      <h1>
+        Random Quotes
+      </h1>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Release
+            </th>
+            <th>
+              Environment
+            </th>
+            <th>
+              Deployment
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            key="Deployment-1"
+          >
+            <td>
+              Release-1 (Version:1.0.0, Created:2000-01-01T08:00:00)
+            </td>
+            <td>
+              Environment-1
+            </td>
+            <td>
+              Deployment-1 (DeployedAt:2000-01-01T10:00:00)
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </ProjectSummary>
+</ProjectContainer>
+`;
+
+exports[`Project Summary should keep Release-1 in case 2 Releases in 1 Env 1`] = `
+<ProjectContainer
+  deployments={
+    Array [
+      Object {
+        "DeployedAt": "2000-01-01T11:00:00",
+        "EnvironmentId": "Environment-1",
+        "Id": "Deployment-2",
+        "ReleaseId": "Release-1",
+      },
+      Object {
+        "DeployedAt": "2000-01-01T10:00:00",
+        "EnvironmentId": "Environment-1",
+        "Id": "Deployment-1",
+        "ReleaseId": "Release-2",
+      },
+    ]
+  }
+  environments={
+    Array [
+      Object {
+        "Id": "Environment-1",
+        "Name": "Staging",
+      },
+    ]
+  }
+  project={
+    Object {
+      "Id": "Project-1",
+      "Name": "Random Quotes",
+    }
+  }
+  releases={
+    Array [
+      Object {
+        "Created": "2000-01-01T08:00:00",
+        "Id": "Release-1",
+        "ProjectId": "Project-1",
+        "Version": "1.0.0",
+      },
+      Object {
+        "Created": "2000-01-01T09:00:00",
+        "Id": "Release-2",
+        "ProjectId": "Project-1",
+        "Version": "1.0.1",
+      },
+    ]
+  }
+>
+  <ProjectSummary
+    latestDeployments={
+      Array [
+        Object {
+          "deployment": Object {
+            "DeployedAt": "2000-01-01T11:00:00",
+            "EnvironmentId": "Environment-1",
+            "Id": "Deployment-2",
+            "ReleaseId": "Release-1",
+          },
+          "environment": Object {
+            "Id": "Environment-1",
+            "Name": "Staging",
+          },
+          "release": Object {
+            "Created": "2000-01-01T08:00:00",
+            "Id": "Release-1",
+            "ProjectId": "Project-1",
+            "Version": "1.0.0",
+          },
+        },
+      ]
+    }
+    project={
+      Object {
+        "Id": "Project-1",
+        "Name": "Random Quotes",
+      }
+    }
+  >
+    <div>
+      <h1>
+        Random Quotes
+      </h1>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Release
+            </th>
+            <th>
+              Environment
+            </th>
+            <th>
+              Deployment
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            key="Deployment-2"
+          >
+            <td>
+              Release-1 (Version:1.0.0, Created:2000-01-01T08:00:00)
+            </td>
+            <td>
+              Environment-1
+            </td>
+            <td>
+              Deployment-2 (DeployedAt:2000-01-01T11:00:00)
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </ProjectSummary>
+</ProjectContainer>
+`;

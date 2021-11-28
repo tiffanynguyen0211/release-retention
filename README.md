@@ -1,8 +1,10 @@
 
 # Release Retention Exercise
 
-Base on the requirements of the project, I have decided to use (tsdx)[https://tsdx.io/] to build a simple headless React component
-
+Base on the requirements of the project, I have decided to use [tsdx](https://tsdx.io/) to build a simple headless React component
+Assumption:
+- All data are available at the beginning when component did mount
+- Name of deployment is auto incremental with formatting (Deployment-[Number])
 
 ## Commands
 
